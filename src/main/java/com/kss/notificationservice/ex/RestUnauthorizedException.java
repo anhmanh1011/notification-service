@@ -1,6 +1,6 @@
 package com.kss.notificationservice.ex;
 
-import com.kss.notificationservice.model.EnumCodeResponse;
+import com.kss.notificationservice.model.common.EnumCodeResponse;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

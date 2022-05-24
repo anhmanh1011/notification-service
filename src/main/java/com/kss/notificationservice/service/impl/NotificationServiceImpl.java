@@ -24,6 +24,10 @@ public class NotificationServiceImpl implements INotificationService {
 
     @Override
     public void updateNotificationRead(String userId, String notificationId) {
-
+        NotificationEntity entity = notificationRepository.findNotificationEntityByIdAndUserId(notificationId, userId);
+        if(!entity.isRead()){
+            entity.setRead(true);
+            notificationRepository.save(entity);
+        }
     }
 }

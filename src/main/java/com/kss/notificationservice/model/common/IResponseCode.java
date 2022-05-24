@@ -1,4 +1,4 @@
-package com.kss.notificationservice.model;
+package com.kss.notificationservice.model.common;
 
 public interface IResponseCode {
 

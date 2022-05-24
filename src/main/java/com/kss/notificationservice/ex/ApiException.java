@@ -1,6 +1,6 @@
 package com.kss.notificationservice.ex;
 
-import com.kss.notificationservice.model.IResponseCode;
+import com.kss.notificationservice.model.common.IResponseCode;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

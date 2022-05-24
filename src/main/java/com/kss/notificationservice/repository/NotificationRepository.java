@@ -11,4 +11,5 @@ public interface NotificationRepository extends MongoRepository<NotificationEnti
     @Query(value = "{userId:?0}", sort = "{createTime:-1}")
     List<NotificationEntity> getNotificationEntityByUserIdOrderByCreateTimeDesc(String userId, Pageable pageable);
 
+    NotificationEntity findNotificationEntityByIdAndUserId(String id,String userId);
 }

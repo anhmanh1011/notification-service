@@ -1,4 +1,4 @@
-package com.kss.notificationservice.model;
+package com.kss.notificationservice.model.common;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
